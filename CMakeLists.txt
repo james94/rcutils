@@ -86,7 +86,7 @@ configure_file(
 # generate header with logging macros
 set(rcutils_module_path ${CMAKE_CURRENT_SOURCE_DIR})
 set(python_code
-  "import em"  # implicitly added ; between python statements due to CMake list
+  "import empty as em"  # implicitly added ; between python statements due to CMake list
   "\
 em.invoke( \
   [ \
